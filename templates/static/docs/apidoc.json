@@ -1,0 +1,20 @@
+{
+  "name": "TestIntegration API Document",
+  "version": "1.0.0",
+  "description": "TestIntegration项目API文档管理",
+  "title": "接口API文档",
+  "url" : "http://localhost:8000",
+  "sampleUrl": "http://localhost:8000",
+  "header": {
+    "title": "顶部",
+    "filename": "header.md"
+  },
+  "footer": {
+    "title": "底部",
+    "filename": "footer.md"
+  },
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  }
+}
