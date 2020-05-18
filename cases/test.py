@@ -6,7 +6,7 @@ from utils.ExcelUtil import ExcelUtil
 from cases.util.setting import GN_CASE_FIElD_LIST as gc
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "TestIntegration.settings") # project_name 项目名称
 django.setup()
-# 在但脚本中执行django文件，添加上面三行内容----------------
+# 在但脚本中执行django文件，添加上面三行内容-----------
 from cases.models import ProjectCase, TestCase
 
 
